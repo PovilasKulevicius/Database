@@ -1,0 +1,9 @@
+CREATE TABLE `klientai` (
+ `firstname` varchar(20) NOT NULL,
+ `lastname` varchar(20) NOT NULL,
+ `email` varchar(30) NOT NULL,
+ `phonenumber1` char(12) NOT NULL,
+ `phonenumber2` char(12) NOT NULL,
+ `comment` text,
+ PRIMARY KEY (`email`),
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
